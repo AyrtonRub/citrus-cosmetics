@@ -1,4 +1,4 @@
-@media screen and (min-width: 35.93em ) {
+@media screen and (min-width: 28.75em ) {
 
     body {
         background: radial-gradient(48.98% 28.28% at 73.92% 17.11%, #FFD537 0%,  #FFE687 48.23%, #fefefe 100%);
@@ -20,8 +20,8 @@
    /* products */
 
    .spotlight-img {
-    width: 15.75rem;
-    height: 15.875rem;
+    width: 11.75rem;
+    height: 11.875rem;
    }
 
    /* footer */
