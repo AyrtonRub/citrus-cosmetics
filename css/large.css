@@ -1,0 +1,80 @@
+@media screen and (min-width: 48em) {
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    /* top hero */
+
+    .burgue-box {
+        display: none;
+    }
+
+    .hero-nav-menu {
+        max-height: initial;
+        background-color: initial;
+        position: initial;
+        width: initial;
+    }
+
+    .hero-nav-menu-box {
+        flex-direction: row;
+        gap: .3rem;
+    }
+    /* hero banner */
+
+    .hero-banner {
+        flex-direction: row;
+    }
+
+    .hero-banner-text,
+    .hero-banner-img {
+        width: 50%;
+    }
+
+    .hero-banner-text {
+        text-align: left;
+    }
+
+    .hero-banner-text h1 {
+        font-size: 2.75rem;
+    }
+
+    .hero-banner-text a {
+        text-align: center;
+    }
+
+     /* products */
+
+     .la-1-4 {
+        grid-column: 1 / 4;
+     }
+     .la-4-7 {
+        grid-column: 4 / 7;
+     }
+     .la-7-10 {
+        grid-column: 7 / 10;
+     }
+     .la-10-13 {
+        grid-column: 10 / 13;
+     }
+
+     /* products */
+
+   .spotlight-img {
+    width: 25.75rem;
+    height: 25.875rem;
+   }
+
+   /* client say */
+
+   .la-1-5 {
+        grid-column: 1 / 5;
+   }
+   .la-5-9 {
+        grid-column: 5 / 9;
+   }
+   .la-9-13 {
+        grid-column: 9 / 13;
+   }
+ }

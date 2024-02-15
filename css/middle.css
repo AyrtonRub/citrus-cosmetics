@@ -1,0 +1,35 @@
+@media screen and (min-width: 35.93em ) {
+
+    body {
+        background: radial-gradient(48.98% 28.28% at 73.92% 17.11%, #FFD537 0%,  #FFE687 48.23%, #fefefe 100%);
+    }
+
+    /* hero banner */
+   .hero-banner-text h1 {
+    font-size: 1.8rem;
+   }
+
+   .mi-1-6 {
+        grid-column: 1 / 6;
+   }
+
+   .mi-6-13 {
+        grid-column: 6 / 13;
+   }
+
+   /* products */
+
+   .spotlight-img {
+    width: 15.75rem;
+    height: 15.875rem;
+   }
+
+   /* footer */
+
+   footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   }
+
+}
